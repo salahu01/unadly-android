@@ -4,6 +4,10 @@
 
 **An Android web browser with ads blocked before they load.**
 
+**[Website](https://salahu01.github.io/unadly/)** ·
+**[Download](https://github.com/salahu01/unadly-android/releases/latest)** ·
+**[Report an ad that got through](https://github.com/salahu01/unadly-android/issues/new?template=ad-not-blocked.md)**
+
 Open any site and the ads simply aren't there. Unadly blocks about 42,000 ad servers inside
 the browser engine, so ad requests never leave your phone, and pages load faster with less
 data. Popups and popunders that sites open on their own are dropped too.
