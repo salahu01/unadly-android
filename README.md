@@ -1,4 +1,4 @@
-<img src="app/src/main/res/drawable/AppIcon.png" width="128" align="right" alt="Unadly icon">
+<img src="app/src/main/res/drawable/app_icon.png" width="128" align="right" alt="Unadly icon">
 
 # Unadly (Android)
 
