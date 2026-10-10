@@ -1,0 +1,16 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Shield shape -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M54,28 L72,36 L72,58 C72,72 64,80 54,84 C44,80 36,72 36,58 L36,36 Z" />
+    <!-- Block symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:pathData="M44,54 L64,54 M54,44 L54,64" />
+</vector>
