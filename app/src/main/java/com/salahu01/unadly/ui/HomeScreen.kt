@@ -48,10 +48,11 @@ fun HomeScreen(
         modifier = Modifier
             .fillMaxSize()
             .background(MaterialTheme.colorScheme.background)
-            .padding(horizontal = 24.dp),
+            .padding(horizontal = 24.dp)
+            .statusBarsPadding(),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Spacer(modifier = Modifier.height(80.dp))
+        Spacer(modifier = Modifier.height(48.dp))
 
         // Logo
         Text(

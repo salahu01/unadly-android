@@ -16,6 +16,7 @@ import androidx.compose.runtime.*
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.foundation.layout.statusBarsPadding
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import com.salahu01.unadly.WebViewFactory
@@ -47,7 +48,8 @@ fun BrowserScreen(
         // Top app bar with address bar and nav buttons
         Surface(
             color = MaterialTheme.colorScheme.surface,
-            tonalElevation = 2.dp
+            tonalElevation = 2.dp,
+            modifier = Modifier.statusBarsPadding()
         ) {
             Row(
                 modifier = Modifier
@@ -165,6 +167,7 @@ fun BrowserScreen(
             modifier = Modifier
                 .fillMaxWidth()
                 .weight(1f)
+                .navigationBarsPadding()
         )
     }
 }
